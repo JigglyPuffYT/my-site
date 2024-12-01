@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIGGLYPUFF YT MERCHANDISE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff69b4;
+        }
+        .container {
+            padding: 20px;
+        }
+        .merch-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 200px;
+            text-align: center;
+        }
+        .merch-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JIGGLYPUFF YT MERCHANDISE</h1>
+        <p>Shop exclusive Jigglypuff-inspired merchandise!</p>
+    </header>
+    <nav>
+        <a href="#merchandise">Merchandise</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="merchandise">
+            <h2>Our Merchandise</h2>
+            <div class="merch-item">
+                <img src="tshirt.jpg" alt="Jigglypuff T-shirt">
+                <p>Jigglypuff T-shirt</p>
+                <p><strong>$25.00</strong></p>
+            </div>
+            <div class="merch-item">
+                <img src="cap.jpg" alt="Jigglypuff Cap">
+                <p>Jigglypuff Cap</p>
+                <p><strong>$15.00</strong></p>
+            </div>
+            <div class="merch-item">
+                <img src="mug.jpg" alt="Jigglypuff Mug">
+                <p>Jigglypuff Mug</p>
+                <p><strong>$10.00</strong></p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Jigglypuff YT Merchandise! We offer high-quality, fun, and stylish products inspired by your favorite YT content. Join the Jigglypuff family today!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:jigglypuffyt@example.com">jigglypuffyt@example.com</a></p>
+            <p>Phone: +1 123 456 7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jigglypuff YT Merchandise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
